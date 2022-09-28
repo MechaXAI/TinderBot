@@ -10,4 +10,4 @@ email = 'ur@gmail.com'
 password = 'urpwd'
 ```
 
-* Constributions are welcome!
+* Contributions are welcome!
