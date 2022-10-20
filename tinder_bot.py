@@ -26,7 +26,7 @@ class TinderBot():
         sleep(6)
         try:
             allow_location_button = self.driver.find_element(
-                'xpath', '/html/body/div[2]/main/div/div/div/div[3]/button[1]')
+                'xpath', '/html/body/div[2]/main/div/div/div/div[3]/button[1]/span')
             allow_location_button.click()
         except:
             print('no location popup')
@@ -107,7 +107,7 @@ class TinderBot():
         try:
             self.extra_popup()
         except:
-            print('Extra window popup not find')  # no sabia que colocar
+            c=0
 
     def dislike(self):
         doc = self.driver.find_element('xpath', '//*[@id="Tinder"]/body')
